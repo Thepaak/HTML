@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Input tags 2</title>
+</head>
+<body>
+<h5>TEXTAREA TAG :</h5>
+	<p> <b>The TEXTAREA Tag</b>is usde to input multiple/group of line ,to collect user inputs like comments or reviews.<b>unlimited number of characters</b></p>
+	<p><label for="Car_Delear">CAR SALES REVIEW</label></p>
+	<textarea id="Car_Delear" name="Car_Delear" rows="5" cols="60">giving a multiple choice in brands and providing a basic to top level cars,good coustomer-care supports </textarea>
+	<hr/>
+<h5>SELECT TAG & OPTION TAG:</h5>
+	<p> <b>The SELECT Tag </b>is usde to create a <b>drop-down list</b> most often used in a form, to collect user input<b>The option tags</b> inside the <b>select</b> element define the available options in the drop-down list.</p>
+	<p> <b>The OPTION tag</b>is used for option in a select list. OPTION tag can be used without any attributes, but you usually need the value attribute, which indicates what is sent to the server on form submission.<b>option</b> elements go inside a <b>select</b>, <b>optgroup</b>, or <b>datalist</b> element.<br><br></p>
+	<label for="Cars">SELECT CAR FOR BUYING :</label>
+	<select name="Cars" id="Cars">
+		<option value="Audi">AUDI</option>
+		<option value="rolls_roys">ROLLS ROYS</option>
+		<option value="bmw">BMW</option>
+		<option value="benze">BENZ</option>
+		<option value="lamborghini">LAMBORGHINI</option>
+		<option value="porsche">PORSCHE</option>
+		<option value="mclaren">MCLAREN</option>
+	</select>
+	<hr/>
+<h5>OPTIONGROUP TAG:</h5>
+	<p> <b>The OPTION GROUP (optgroup)</b>used to group related options in a <b>select</b> element (drop-down list).</p><br><br>
+		<label for="Car">CAR BASED ON COUNTRY OF ORIGIN :</label>
+	    <select name="Car" id="Car">
+	    	<optgroup label="INDIAN CARS">
+	    		<option value="mahindra">MAHINDRA</option>
+	    		<option value="tata">TATA</option>
+	    	</optgroup>
+	    	<optgroup label="GERMANY CARS">
+	    		<option value="bmw">BMW</option>
+	    		<option value="benze">BENZ</option>
+	    		<option value="Audi">AUDI</option>
+	    		<option value="volkswagen">VOLKSWAGEN</option>
+	    		<option value="porsche">PORSCHE</option>
+	    	</optgroup>
+	    	<optgroup label="UK CARS">
+	    		<option value="rolls_roys">ROLLS ROYS</option>
+	    		<option value="aston_martin">ASTON MARTIN</option>
+	    		<option value="mclaren">MCLAREN</option>
+	    	</optgroup>
+	    	<optgroup label="ITALY CARS">
+	    		<option value="lamborghini">LAMBORGHINI</option>
+	    	</optgroup>
+	    </select>
+	<hr/>
+<h5>BUTTON TAG:</h5>
+	<p> <b>The BUTTON Tag </b>defines a clickable button.</p><br>
+		<button type="button" onclick="alert('SUCCESSFULLY PURCHASED A CAR')">DONE</button>
+	</body>
+	</html>
